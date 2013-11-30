@@ -7841,6 +7841,10 @@ label,
   color: #dededf;
 }
 
+.well a {
+  color: #fff;
+}
+
 .clearfix:before,
 .clearfix:after {
   display: table;
