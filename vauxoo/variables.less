@@ -18,11 +18,15 @@
 // Brand colors
 // -------------------------
 
-@brand-primary:         #a41d35;
+@brand-primary:         #008cba;
 @brand-success:         #43ac6a;
 @brand-warning:         #E99002;
 @brand-danger:          #F04124;
 @brand-info:            #5bc0de;
+@red-vauxoo:            #A41D35;
+@red-vauxoo-dark:       #772031;
+@grey-vauxoo:           #DEDEDF;
+@grey-vauxoo-dark:           #DEDEDF;
 
 // Scaffolding
 // -------------------------
@@ -184,7 +188,7 @@
 
 @dropdown-link-disabled-color:   @gray-light;
 
-@dropdown-header-color:          @gray-light;
+@dropdown-header-color:          @gray-vauxoo-dark;
 
 @dropdown-caret-color:           #000;
 
@@ -261,7 +265,7 @@
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 
 @navbar-default-color:             #fff;
-@navbar-default-bg:                @gray-dark;
+@navbar-default-bg:                @red-vauxoo;
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
@@ -287,15 +291,15 @@
 // Inverted navbar
 //
 // Reset inverted navbar basics
-@navbar-inverse-color:                      #fff;
-@navbar-inverse-bg:                         @brand-primary;
+@navbar-inverse-color:                      @red-vauxoo;
+@navbar-inverse-bg:                         @grey-vauxoo;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 #fff;
+@navbar-inverse-link-color:                 @red-vauxoo;
 @navbar-inverse-link-hover-color:           #fff;
 @navbar-inverse-link-hover-bg:              darken(@navbar-inverse-bg, 10%);
-@navbar-inverse-link-active-color:          #fff;
+@navbar-inverse-link-active-color:          @red-vauxoo-dark;
 @navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
 @navbar-inverse-link-disabled-color:        #444;
 @navbar-inverse-link-disabled-bg:           transparent;
