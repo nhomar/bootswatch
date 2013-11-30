@@ -1,12 +1,12 @@
 {
-	"name": "bootswatch",
-	"description": "Bootswatch is a collection of themes for Bootstrap.",
-	"version": "3.0.2+2",
-	"author": "Thomas Park",
-	"homepage": "http://bootswatch.com",
+	"name": "bootswatch-tunning",
+	"description": "Bootswatch - tunning is a collection of themes for Bootstrap.",
+	"version": "3.0.2+3",
+	"author": "Nhomar based on Thomas Park",
+	"homepage": "http://geronimo.com.ve",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/thomaspark/bootswatch.git"
+		"url": "git://github.com/nhomar/bootswatch.git"
 	},
 	"dependencies": {
 		"bootstrap": "~3.0.2",
