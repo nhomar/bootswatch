@@ -7485,6 +7485,59 @@ td.visible-print {
   }
 }
 
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500px;
+  min-width: 100%;
+}
+
+.carousel a.carousel-control span i {
+  padding-top: 140%;
+}
+
+footer {
+  padding: 40px 0 40px 0px;
+  margin: 0 0px 0px 0px;
+  background-color: #000;
+}
+
+footer div {
+  color: #dededf;
+}
+
+footer a {
+  color: #ab0000;
+}
+
+footer a:hover {
+  color: #772031;
+}
+
 .navbar {
   font-size: 13px;
   font-weight: 300;
@@ -7843,41 +7896,6 @@ label,
 
 .well a {
   color: #fff;
-}
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-}
-
-/* Since positioning the image, we need to help out the caption */
-
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-}
-
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 500px;
-  min-width: 100%;
-}
-
-.carousel a.carousel-control span i {
-  padding-top: 140%;
 }
 
 .clearfix:before,
