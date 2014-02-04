@@ -1,6 +1,6 @@
 {
 	"name": "bootswatch-tunning",
-	"description": "Bootswatch - tunning is a collection of themes for Bootstrap.",
+	"description": "Bootswatch - tunning is a collection of themes for Bootstrap based on bootswatch.",
 	"version": "3.0.3",
 	"author": "Nhomar based on Thomas Park",
 	"homepage": "http://geronimo.com.ve",
@@ -9,7 +9,7 @@
 		"url": "git://github.com/nhomar/bootswatch.git"
 	},
 	"dependencies": {
-		"bootstrap": "~3.0.3",
+		"bootstrap": "~3.1.0",
 		"font-awesome": "~4.0.0"
 	},
 	"licenses": [
@@ -17,5 +17,9 @@
 			"type": "Apache-2.0",
 			"url": "http://www.apache.org/licenses/LICENSE-2.0"
 		}
-	]
+	],
+   "devDependencies": {
+    "html5shiv": "~3.7.0",
+    "respond": "~1.4.2"
+   }
 }

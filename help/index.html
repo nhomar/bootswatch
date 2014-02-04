@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="../assets/css/bootswatch.min.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="../bower_components/bootstrap/assets/js/html5shiv.js"></script>
-      <script src="../bower_components/bootstrap/assets/js/respond.min.js"></script>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
     <![endif]-->
     <style>
 
@@ -99,12 +99,12 @@
             <h1 id="customization">Customization</h1> 
             <p>To modify a theme or create your own, follow the steps below in your terminal. You'll need to have <a href="https://help.github.com/articles/set-up-git" target="_blank">Git</a> and <a href="http://nodejs.org/" target="_blank">Node</a> installed.</p>
             <ol>
-              <li><p><code>git clone git@github.com:thomaspark/bootswatch.git</code></p></li>
+              <li><p><code>git clone https://github.com/thomaspark/bootswatch.git</code></p></li>
               <li><p><code>npm install</code></p></li>
               <li>
                 <p>Edit <code>variables.less</code> and <code>bootswatch.less</code> in one of the theme directories, or create your own in <code>/custom</code>.</p>
               </li>
-              <li><p>Type <code>grunt swatch:[theme]</code> to build the CSS for a theme, e.g., <code>grunt swatch:amelia</code> for Amelia. Or type <code>grunt swatch</code> to build them all at once.</p></li>
+              <li><p>Type <code>grunt swatch:[theme]</code> to build the CSS for a theme, e.g., <code>grunt swatch:amelia</code> for Amelia. Or type <code>grunt swatch</code> to build them all at once. To have <code>grunt</code> available in the command line, install <code>grunt-cli</code> as described on the <a href="http://gruntjs.com/getting-started">Grunt Getting Started page</a>.</p></li>
             </ol>
             <p>Here are additional tips for <a href="http://coding.smashingmagazine.com/2013/03/12/customizing-bootstrap/" target="_blank">customizing Bootstrap</a>.</p>
 
@@ -140,9 +140,9 @@
               <li><a href="../help/#api">API</a></li>
               <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=F22JEM3Q78JC2">Donate</a></li>
             </ul>
-            <p>Made by <a href="http://thomaspark.me">Thomas Park</a>. Contact him at <a href="mailto:hello@thomaspark.me">hello@thomaspark.me</a>.</p>
-            <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License v2.0</a>.</p>
-            <p>Based on <a href="http://getbootstrap.com">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts">Google</a>. Favicon by <a href="https://twitter.com/geraldhiller">Gerald Hiller</a>.</p>
+            <p>Made by <a href="http://thomaspark.me" rel="nofollow">Thomas Park</a>. Contact him at <a href="mailto:hello@thomaspark.me">hello@thomaspark.me</a>.</p>
+            <p>Code released under the <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE">MIT License</a>.</p>
+            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>. Favicon by <a href="https://twitter.com/geraldhiller" rel="nofollow">Gerald Hiller</a>.</p>
 
           </div>
         </div>
@@ -152,7 +152,7 @@
     </div>
 
 
-    <script src="../bower_components/jquery/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../assets/js/bootswatch.js"></script>
     <script type="text/javascript">
