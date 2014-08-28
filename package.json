@@ -3,11 +3,11 @@
   "description": "Bootswatch is a collection of themes for Bootstrap.",
   "version": "3.1.0",
   "author": "Thomas Park",
-  "homepage": "http://bootswatch.com",
+  "homepage": "http://geronimo.github.io/bootswatch",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thomaspark/bootswatch.git"
+    "url": "https://github.com/nhomar/bootswatch.git"
   },
   "engines": {
     "node": ">= 0.8.11"
